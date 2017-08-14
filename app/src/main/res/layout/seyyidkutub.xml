@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SEYYİD KUTUB"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/seyyid"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Seyyid Kutub (Arapça: سيد قطب; 1906, Muşa – 29 Ağustos 1966), Mısırlı yazar, müfessir ve düşünce adamı.
+1906 yılında Mısır'ın Asyut kasabasısında, dindar bir ailenin çocuğu olarak dünyaya geldi. Orta ve lise tahsilini el-Ezher de bitirdi. Kahire Üniversitesi'nin Darul Ulum fakültesine girdi. 1933 yılında mezun olduğu fakülteye aynı yıl öğretim görevlisi olarak tayin oldu. 1939 ve sonrasında İslami düşünceye yöneldi. 1946'da Konum Dersleri isimli makalesini yayımladı. Çoğuna göre bu makalesi onun İslami düşünceye girişini temsil eder. Makalesinde toplumun ıslahının ve Müslümanların bu yönde çalışmasının Kur'an'ın emri olduğunu savunuyor, Mısır'ın o dönemki toplumsal yapısını ve geçirmekte olduğu dejenerasyonu eleştiriyordu.
+
+1949 yılında Amerika Birleşik Devletleri'ne gitmiştir. Bu dönem boyunca Amerikan yaşam tarzını ve toplumunu, tanık olduğu özdekçiliği eleştirmiş ve Amerikan medeniyetini primitif olarak görmüş ve reddetmiştir. Ayrıca, 1949 yılında, o yurtdışındayken, İslam'da Sosyal Adalet isimli eseri yayımlanmıştır. Bu eserinde gerçek sosyal adaletin İslam'da olduğunu öne sürmüştür. Ayrıca yine Amerika Birleşik Devletleri'ndeki yıllarında, daha önce kaleme almış olduğu edebi makale ve eserleri eleştiriyor, o dönemlerde sahip olduğu daha seküler olarak tanımlanabilecek edebiyat anlayışından ziyade edebiyatın da kaynak olarak en başta İslam'ı alması gerektiğini savunuyordu.
+
+Kitaplarında, genellikle geleneksel İslam'a karşı, sahih bir çizgiyi savundu. Tasavvufta var olan hurafeleri eleştirdi.
+
+Mısır'a döndüğünde, kamu hizmetinden ayrılıp Müslüman Kardeşler teşkilatına katılmıştır. Teşkilatın gazete ve dergilerinden devamlı olarak düşüncelerini aktarmaya çalışırken, teşkilatın genel düşüncesiyle kendi fikirleri arasındaki bazı farklılıklar ortaya çıksa da, Müslüman Kardeşler ile olan ilişkisi devam etti.
+
+Cemal Abdül Nasır'a düzenlenen 1954 tarihli suikast girişimi nedeniyle birçok Müslüman Kardeşler üyesi gibi o da tutuklandı. Yargılama sonunda Seyyid Kutub'a onbeş yıl ağır hapis cezası verilmiştir. Hapiste ileride büyük bir önem ve üne kavuşacak iki eseri olan, Kur'an tefsiri Fi zilâl-il-Kur'an ve Kutub'un siyasi ve düşünsel görüşlerinin en son ve bütününü ifade eden Yoldaki İşaretler`i kaleme almıştır. 1964'te serbest bırakıldıktan sonra, 1965'te tekrar tutuklandı. Bu kez de birçok Müslüman Kardeşler üyesi ile birlikte tutuklanmıştı ve tutuklanma nedeni devlete karşı bir darbe girişimi idi. 21 Ağustos 1966'da hakkında idam cezası verildi. Kararı Pakistan, İngiltere, Lübnan, Ürdün, Sudan ve Irak gibi ülkelerdeki birçok dini otorite ve grup tepkiyle karşılasa ve Nasır'ı kararından döndürmeye çalışsalar da, Seyyid Kutub 29 Ağustos 1966'da idam edildi."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="https://tr.wikipedia.org/wiki/Seyyid_Kutub"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

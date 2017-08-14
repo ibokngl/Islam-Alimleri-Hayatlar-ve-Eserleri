@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MUHAMMED HAMİDULLAH"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/hamidullah"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Muhammed Hamidullah (1908, Haydarabad - 2002, Florida), İslam dünyasında tanınmış son dönem hadis bilginlerinden birisidir.
+
+İlk öğrenimini Haydarabad'da tamamladıktan sonra, yine bu kentteki hukuk fakültesini bitirdi. Fakat İslami bilimlere özellikle de siyer ilmine olan merakından dolayı 1936'da Paris Üniversitesi'nde bu konuda eğitim aldı. Daha sonra Almanya'nın Tübingen Üniversitesi'ne kaydolarak devletlerarası İslam hukuku alanında ikinci bir doktora çalışması daha yaptı.
+
+1947'de Paris'e yerleşerek ders vermeye başladı. Akademik çevrelerdeki ünü giderek arttı ve ders vermek için Fransa dışındaki ülkelere gitmeye başladı. 1950'li yıllarda Türkiye'ye gelerek İstanbul Üniversitesi Edebiyat ve Hukuk fakültelerinde ve İzmir, Ankara, Konya üniversitelerinde dersler verdi."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="https://tr.wikipedia.org/wiki/Muhammed_Hamidullah"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ÖMER BİN ABDÜL-AZİZ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="II. Ömer ya da gerçek adıyla Ömer bin Abdülaziz (Arapça: عمر بن عبدالعزیز). Emevî halifelerinin sekizincisi ve Mervân’ın torunudur. 60 (m. 679)'da ya’nî Muâviye’nin vefâtı yılında Medine'de (diğer kaynaklara göre de Mısır'da[1]) doğdu. Emevî Devleti'nde kendisinden önce Ömer isimli bir sultan olmamasına rağmen Ömer bin Hattab'ın ardından halife olan ilk Ömer isimli kişi olduğundan dolayı II. Ömer şeklinde anılmaktadır.[2]
+
+Sünni Müslümanlar arasında gelen halk hatıralarına göre Ömer bin Abdülaziz in İkinci Halife Ömer bin Hattabın torunudur. Buna göre Ömer bin Hattab halkın ne düşündüğünü öğrenmek için tebdilli olarak gezmekte iken, süt satan bir genç kızın annesinin süte su karıştırması emrini dinlemediğini ve ona bundan dolayı serzenişlere geçtiğini gorür. Ertesi gün kızın bu fikirde israr edip etmediğini kontrol etmek için bir memurunu göndererek sütçü kızdan süt satın aldırır ve sütün içine yine su karıştırmadığını görür. Ömer bin Hattab kızı ve annesini halifelik evine çağırır ve aralarındaki anlaşmazlığı duyduğunu söyler. Sütçü kızı ödüllendirmek için ona kendi oğlu Asım ile evlenmeyi kabul etmesini istediğini bildirir. Kız bunu kabul eder ve bu evlilikten çiftin Leyla adını verdikleri bir kızları olur. İşte Ömer bin Hattab'in torunu Leyla Ömer bin Abdülazizin annesidir. [3]
+717de (Hicri 99de) halife olan amcası oğlu Süleymân bin Abdülmelik vefât edince, halife oldu. Bu o zamana kadar babadan oğula geçen Emevi halifelik geleneklerine aykırı olduğu için, halifelik görevine seçimle geldiği çok olasıdır.
+Emevi halifeleri arasında Velid bina inşa edici ve sanatkar ruhlu bir hükümdar; Süleyman haremine ve kadınlara düşkünlüğü ile ünlü idi; onları takip eden Ömer ise çok dindar ve lüks yaşamadan hiç hoşlanmayan bir halife olarak ün aldı. Sarayını Süleyman'ın ailesine bırakıp, mütevazi bir evde yaşamaya başladı. Giysileri o kadar basit keten ve pamuktandı ve o kadar süsten noksandı ki görenler kendini bir uşak sayabilirlerdi. Karısını haremde ziyarete gelen bir misafir kadının halife karısının yakınında bahçenin duvarını tamir eden yamalı elbiseli ve uşak kılıklı bir erkeğin bulunmasına sinirlenip halife karısını Sen Allahtan utanmuyor musun? Nasıl olup da bu amele yanında örtünmeden durabiliyorsun? diye azarlamış olduğunun; ama bu amele gibi çalışan kişinin Halifenin kendisi olduğunu öğrenince çok utandığının hikâyesini tarihler yazmıştır.
+
+Gerçekten dürüstlüğü ve cömertliği hakkında söylenen hikâyeler de zamanımıza kadar gelmiştir. Emevi idarecilerinin el koydukları arazileri fakir çiftçiye dağıtmış ve bu nedenle bu toprakları tapu almadan kullanan üst tabakanın kızgısına hedef olmuştur. Bir rüşvet olarak kabul edilebilir diye nadiren hediye kabul ederdi. Bir halife kızı, diğer halifenin kızkardeşi ve son olarak kocası halife olan, karısının mücevheverden takılarını devlet hazinesine bağışlamasını telkin etmiştir. Şeriat kurallarının daha katıca uygulanması için tedbir aldırmıştır.
+
+ Şam'da Büyük Emevi Cami içinde bulunan ve caminin eski katedral olma zamanından kalmış ve çiçekli bahçeleri tasvir eden mücehveratlı mozaikleri kırdırıp kaldırtmak üzere iken, bu mozaikların Bizans imparatorlarını gıpta ettirdiğini duyunca bu kararından vazgeçmiştir.
+
+Muâviye’nin vefâtından sonra, Emevi idaresindeki ülkelerde Cuma hutbelerinde Dördüncü Halife Ali bin Ebu Talib'e la’net okumak âdet olmuştu. Bu gelenek Müslim bin Haccac tarafından toplanan Sahih-i Müslim hadislerinde bulunmakta ve açıklanmakta idi. Şiiler tarafından yazılan tarihlerde bu lanetleme devamlı olarak Sünni adetlerinden şikayet konusu olarak geçmektedir. Ömer halife olunca, bu âdeti kaldırdı. [1] Ömer Cuma hutbesinden bu laneti kaldırdı ve yerine Kuran'dan belirlenen bir ayetin okunması kararı aldı. Hatta Ehli–Beyt imamı İmam Muhammed Bakır'a Fatıma evlatlarına hakları olduğu için Fedek arazisini geri vermişdir. Bu haraketleri Emevi saray mensupları tarafından çok fena olarak karşılandı, ama Ömer bu kararını inatla değiştirmedi.
+
+Şam'da kadın ve erkeklerin birlikte gittikleri içkili yerleri ve hamamları kapattırdı.
+
+            İslam dinini kabul ettikten sonra bile daha önce bir zımmi oldukları bahanesiye birçok yeni din değiştirmiş Müslüman'dan cizye vergisi alınmaktaydı. Ömer İslam'ı kabul etmiş olan kimseden cizye vergisi alınmaması hakkında bir yasa çıkarttı."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/aziz"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

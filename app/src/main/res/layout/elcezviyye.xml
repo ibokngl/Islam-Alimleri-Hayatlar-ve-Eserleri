@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="İBN-İ KAYYİM EL-CEVZİYYE"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="İbn Kayyim El-Cevziyye (d. 29 Ocak 1292, Şam - ö. 1350)[1], 14. yüzyılda yaşamış Arap tefsir ve fıkıh bilgini.
+
+Künyesiyle beraber tam adı 'Ebû Abdillâh Şemsüddîn Muhammed b. Ebî Bekr b. Eyyûb ez-Züraî ed-Dımaşkī el-Hanbelî' olup düşünce ve çalışmaları Hanbeli mezhebi odaklı olmıştur.
+
+7 Safer 691 (29 Ocak 1292) tarihinde Dımaşk (Şam) şehrinde doğdu. Babası Ebu Bekir, Cevziyye Medresesi'nde kayyım olduğu için İslam literatüründe adı daha çok 'İbnü'l-Kayyim' (kayyımın oğlu) olarak anılmıştır.
+
+İlk eğitimini babasından aldı. Daha sonrasında ise Şam medreselerinin büyük alimlerinin derslerine katıldı. Bunlar arasında, fıkıh alanında ders aldığı İbn Teymiyye en tanınmış hocalarındandır.
+
+Daha sonraları Cevziyye Medresesi'nde imamlık ve 1336 yılından sonra da hatiplik yaptı. 1342 yılından ölümüne kadar da Sadriyye Medresesi'nde ders verdi.
+
+Yakın ilişki içinde olduğu hocası İbn Teymiyye'nin devrin Memluk sultanları ile arası iyi olmadığı için o da siyasi takipten kurtulamadı ve birkaç defa hapsedilmiştir. 1331 yılında hac için Şam'dan ayrılmış, 13 Receb 751'de (16 Eylül 1350) yılında doğum yeri olan Şam'da ölmüştür. Mezarı aynı şehirdeki Bâbüssagir Mezarlığı'ndadır."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1-> TDV İslam Ansiklopedisi ilgili madde"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MuslimAlimler</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="kurtubi">1-> El-Kasabi Mahmud Zelat, el-Kurtubi ve Menhecühü fit-Tefsir s.8\n
+2-> El-Kurtubi, El-Câmi, 1,193; VII, 277\n
+3-> A.g.e. , II, 212\n
+4-> http://es.wikipedia.org/wiki/Fernando_III_de_Castilla\n
+5-> Meşhur Hasan Mahmud Selman, El-İmam’ul Kurtubî Şeyhu E’immeti’t-Tefsîr, s.89-94\n
+6-> El-Kasabî Mahmûd Zelat, s.30\n
+El-Kurtubi, El-Cami\n
+Diyanet İslam Ansiklopedisi, El-Kurtubi maddesi</string>
+    <string name="arabi">Molla Cami, Nefahatül Üns\n
+İbn Arabi, Fütuhat-ı Mekkiyye ve Füsusül Hikem\n
+Wikipedia-İbn Arabi\n
+İbn Arabi-Prof.Dr. Süleyman Uludağ-Diyanet Vakfı Yayınları\n
+İbn Arabinin Menkıbeleri, Ebul-HasenAli b. İbrahim el-Kari, İz Yayıncılık\n
+İcazetname: İbn Arabinin kendi kaleminden icazet aldığı hocaların ve yazdığı eserlerin listesi, (çev.: Veysel Kaya) </string>
+    <string name="esed">1-> Epistomology.net Muhammed Esed üzerine bilimsel bir makale/pdf/ingilizce\n2-> Saudi Aramco World/İngilizce</string>
+    <string name="aziz">1-> İngilizce Wikepedia Umar ibn AbdulAziz maddesi\n
+2-> "Umar II". britannica.com. Erişim tarihi: 26 Şubat 2014.\n
+3-> Muhammad ibn Jarir al-Tabari (ed. Ehsan Yar-Shater çev. David Stephan Powers)(1989-2007) The History of al-Ţabarī 40 Cilt, Albany: State University of New York Press ISBN 0-88706-563-5 (Cilt 24) (İngilizce)</string>
+<string name="taberi">1-> Rosenthal, Franz, The Life and Works of al-Tabari pp. 10-11, in volume 1 of History, pp. 5-134\n
+2-> Rosenthal, Franz, The Life and Works of al-Tabari sayfa 15\n
+3-> Rosenthal, Franz, The Life and Works of al-Tabari sayfa 15-16\n
+4-> Fuat Sezgin (1967), sayfa 323\n
+5-> Rosenthal, Franz, The Life and Works of al-Tabari sayfa 19\n
+6-> Rosenthal, Franz, The Life and Works of al-Tabari sayfa 20\n
+7-> Rosenthal, Franz, The Life and Works of al-Tabari sayfa 78</string>
+    <string name="basri">1->Michael G. Morony, Iraq After the Muslim Conquest, Gorgias Press LLC, 2006. Excerpt from pg 189: the parents of Al-Hasan Al-Basri were lower-class Persians and came from this part of Iraq (Baladhuri, Futuh, 344).\n
+2-> Christopher Melchert, ḤASANBAṢRI, ABU SAʿID B. ABI’L-ḤASAN YASĀR, in Encyclopædia Iranica. Accessed Nisan 2010.\n
+3-> Al-Din Al-Hanafi, Allama Qutb; Hasan Al-Basri. Prayers For Forgiveness. White Thread Press. ISBN 978-1-933764-07-8.\n
+4-> Ritter, 14ff., 33, n.5</string>
+    <string name="gazali">1-> Çağrıcı, Mustafa (1996). Gazzâlî. İslâm Ansiklopedisi. 13. İstanbul: Türkiye Diyanet Vakfı. ss. 489-505. Erişim tarihi: 30 Ağustos 2014.\n
+2-> Kufralı, Kasım (1978). Gazzâlî. İslâm Ansiklopedisi. 4. İstanbul: Millî Eğitim Bakanlığı. ss. 748-760.\n
+3-> R.M. Frank, Al-Ghazali and the Asharite School, Duke University Press, London 1994\n
+4-> Ghazali, The Columbia Encyclopedia, Sixth Edition 2006</string>
+</resources>

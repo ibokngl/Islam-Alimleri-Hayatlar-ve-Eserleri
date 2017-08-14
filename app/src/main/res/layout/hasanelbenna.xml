@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HASAN EL-BENNA"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/benna"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="İmam Hasan b. Ahmed b. Abdurrahman el-Bennâ (14 Ekim 1906 - 12 Şubat 1949), Mısırlı siyasi ve dini lider. Müslüman Kardeşler adlı teşkilatının kurucusudur. Aynı zamanda Müslüman entelektüel, fikir adamı Tariq Ramadan'in dedesidir.Genç yaşta dini konulara büyük ilgi duymaya başladı. 1923'te Kahire'de dini ve toplumsal konularda geleneksel eğitim veren Darü'l-Ulum adlı öğretmen okuluna kaydoldu. 1927'de Arapça öğretmeni olarak Süveyş Kanalı yakınlarında bulunan İsmailiye'de bir ilkokula atandı. İngilizlerin ülkedeki ekonomik ve askeri varlığı açısından büyük önem taşıyan bu kentte, Müslümanları derinden sarsan olaylara şahid oldu. Mart 1928'de bir İngiliz kampında çalışan altı kişiyle birlikte İslamın ilkelerine geri dönüşü amaçlayan Müslüman Kardeşler'i kurdu. 1930'larda kendi isteğiyle Kahire'deki bir okula tayin edildi. II. Dünya Savaşı başladığında çok sayıda öğrenci, devlet memuru ve işçi Müslüman Kardeşler'e üyeydi ve Teşkilat Mısır toplumunun hemen bütün kesimlerini temsil eden bir önemli siyasi güç olmuştu.
+
+Teşkilat üyelerinin birçoğu hükümetin milli çıkarlara ihanet ettiği görüşündeydi; Hasan el-Benna ise bir müddet daha hükümeti destekleme taktiğine bağlı kalmaya çalıştı. Ama gerek kendisi, gerekse teşkilat üyeleri idare açısından tehlikeli olmaya başlamıştı. Savaşı izleyen kargaşa ortamında el-Benna'nın sözünü geçiremediği teşkilat üyelerinin adları, başta Başbakan en-Nukraşi'nin öldürülmesi olmak üzere (Aralık 1948), bir dizi suikast olayına karıştı. Hasan el-Benna Şubat 1949'da hükümetin göz yumduğu bir suikast sonucunda Kahire'de öldürüldü.
+
+Hasan el-Benna Da'vetuna, Nahvü'n-Nur, Akidetuna, el-İhvanü'l Müslimun tahte Rayetü'l-Ku'ran, Muskilatuna fi da'va'l Nizami'l-İslam, Müzekkiratü'd-Da'va ve'd-Dai gibi yapıtlarında emperyalizme karşı milli bir hareket oluşturulmasını ve Müslüman milletlerin İslam ilkelerine dayanan birliğini savundu. Ona göre Müslüman milletlerin geri kalmasının sebebi din yolundan uzaklaşılmış olmasıydı.Kurtuluş, İslam öğretilerine geri dönerek sağlanabilirdi. Devlet İslam dini temelinde teşkilatlanmalı, İslam hukuku geçerli kılınmalıydı. Toplumun ahlakı ve eğitimi İslam ilkelerine göre yönlendirilmeli, toplumsal eşitsizlik ve adaletsizliklere son verilmeliydi.Müslüman Kardeşler teşkilatı maksadı da bu programı gerçekleştirmekti.
+
+Mısır'ın çeşitli, yörelerinde kurduğu okullar ve toplumsal hizmet kurumları vasıtasıyla görüşlerini hayata geçirmeye çalışan Hasan el-Benna'nın başlattığı hareket Arap dünyasını büyük ölçüde etkilemiştir."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="https://tr.wikipedia.org/wiki/Hasan_el-Benna"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

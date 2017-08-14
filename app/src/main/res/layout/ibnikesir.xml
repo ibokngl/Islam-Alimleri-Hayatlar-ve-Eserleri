@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="İBN-İ KESİR"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="İbn Kesîr (d. Busra, 1301- ö. 1373, Şam) , Suriyeli muhaddis, müfessir ve tarihçi.
+
+Tam adı 'Ebu'l-Fida İsmail İmadu'd-Din îbn Ömer îbn Kesîr İbn Davud îbn Kesîr el-Dımaşkî el-Kureyşî' olan İbn Kesir, İslam dünyasında kaynak bir eser olan El Bidaye ve'n Nihaye'yi yazmıştır.
+
+İbn Kesir, Şam yakınlarındaki Busra'ya bağlı Micdel veya Mecdel köyünde 1301 (h. 701) yılında doğdu. Babası 1303'de vefat ettiği zaman kendisi üç veya dört yaşlarındaydı. Ailesi ile birlikte yedi yaşlarında Şam'a yerleşmiş, yetişmesinde ağabe­yinin etkisi büyük olmuştur. İlk dini bilgileri aile yuvasında almış olan İbn Kesir, daha sonra Burhaneddin el-Fezari, Kemaleddin İbn Kadı Şihne, Kasım İbn Asakir, İshak İbn Amidî, Muhammed İbn Zinad, İbn er-Rabi ve İbn Teymiyye gibi devrinin ünlü bilginlerinden İslam dininin temel bilimleri olan tefsir ve hadis öğrenmiştir.
+
+Genç yaşta eserler yazmaya başlayan îbn Kesir, Tehzîbü'l Kemal adlı eserin müellifi el-Mizzi'nin derslerine devam etmiş ve onun kızıyla evlenerek damadı olmuş­tur. Daha sonra Karafi, Debbusi, Urani ve Huteni gibi bilginlerden icazet almıştır. Uzun yıllar Şam'ın ünlü medreselerinde dersler vermiş daha sonra Hecibiye Medresesi müderrisliğine tayin edilmiştir. Subki'nin ölümünden sonra da meşhur Eşrefiyye Dâr'ul Hadis'i hocalığına geçmiş­tir. Yetiştirdiği sayısız öğrenciler arasında; İbn Hacer gibi büyük hadis bilginleri, Şihâbüddin îbn Hiccî, Hafız Ebu'l-Mehâsin el-Hüseynî gibi o devrin meşhur âlimleri de bulunmaktadır.
+
+Ömrünün sonlarına doğru gözlerini kaybetmiş olan İbn Kesir, 1373 (h. 26 Şaban 774) yılında 72 yaşında iken Şam'da vefat etmiştir."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="https://tr.wikipedia.org/wiki/%C4%B0bn_Kesir"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

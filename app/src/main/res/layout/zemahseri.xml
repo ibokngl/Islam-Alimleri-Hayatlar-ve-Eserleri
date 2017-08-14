@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ZEMAHŞERİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Zemahşerî; (Farsça: محمود زمخشری, Mahmud Zemahşeri) Fars asıllı İslam filozofu; aynı zamanda tefsir, kelâm, fıkıh, lügât ve belâgat gibi birçok İslam'i bilim alanında araştırmalar yapmış ve çeşitli eserler vermiş olan İslâm âlimi. 1074 yılında Harezm'in Zemahşer kasabasında doğmuş, 1144'de bir Arefe gecesi Cürcaniyye'de vefât etmiştir
+Asıl adı Mahmut'tur. Doğduğu şehirden dolayı Zemahşerî, uzun süre Mekke'de yaşadığından ötürü de Cârûllah lâkaplarıyla anılmıştır. Mutezile akidesine bağlı bir âlimdir. Özellikle Arap dili ve Edebiyatı ile belâgat konusunda dâhi bir bilgindir. Zemahşerî olarak tanınmakta olup, künyesi Ebül Kasım Cârûllah Mahmud bin Ömer bin Ahmed el-Zemahşerî şeklindedir.
+
+Mahmud, 1075 yılında Harezm'in Zemahşer kasabasında doğdu. Küçükken geçirdiği kaza sonucu bir bacağını kaybettiğinde takma bir bacakla yürümek zorunda kaldı. Dindar bir aileye mensup olup, ilk eğitimini babasından aldı. Baba, oğlunun sakatlığını da göz önünde bulundurarak durumuna uygun olan ve oturarak çalışılabilen terzilik mesleği ile geçimini sağlamasını istiyordu. Ancak, Mahmud'un okumak konusundaki ısrarı üzerine bir medreseye verdi. Babası, kesin olarak bilinmeyen bir sebepten ötürü hapsedildi ve kalan ömrünü burada geçirdi.
+
+Mahmud, Harezm'de tıp, dil ve gramer sahasında önemli bir konuma sahip olan Ebu Muzar Mahmud bin Cerir el-Zebbî'den ders aldı. Dil ve edebiyat derslerinin yanında, aldığı eğitimin etkisiyle Mutezile akidesine bağlandı. Üstün zekâsı ve gösterdiği başarıdan dolayı hocasından maddi ve manevi destek gördü. Bir ara Buhara'ya da gidip orada da eğitim aldı. Bu tarihlerde hüküm süren Büyük Selçuklu Sultanı Melikşah ve ünlü veziri Nizamülmülk'ten de himâye ve destek gördü.
+
+Mahmud, ilim tahsil etmek gayesiyle muhtelif beldeleri dolaştı. Harezm'den ayrıldıktan sonra Horasan'a gitti. Orada bulunan ileri gelenlerle temas kurdu. Sonra İsfahan'a gitti. Burada da Melikşah'ın oğlu ile görüştü ve onu öven bir kaside kaleme aldı. Bağdat'ta bulunan Nizamiye Medresesi'nde de eğitim gördü. Burada hadis, tefsir, kelâm, fıkıh, gramer ve edebiyat dersleri aldı. Arapça ve dilbilim konusunda uzman olarak yetişti.
+
+Mahmud, şiddetli bir hastalığa yakalanınca Mekke'ye gitti. Mekke Şerifi Ebü'l-Hasan Ali bin Hamza tarafından çok iyi karşılandı. Aralarında samimi bir dostluk oluştu. Mahmud Zemahşeri, bu süre zarfında Arap yarımadasında gerçekleştirdiği seyahatler ve Araplarla girdiği yakın diyalog neticesinde Arap dili ve edebiyatının incelikleri, zenginliği konularında oldukça önemli bilgilere sahip oldu.
+
+Mahmud, son gelişi ve değişik zamanlarda hac vesilesiyle geldiği Mekke ve Medine'de uzun süre kaldı. Bundan dolayı kendisine 'Allah'ın komşusu' anlamına gelen 'Cârûllah' denmeye ve bu unvanla anılmaya başlandı. Memleket özlemiyle Harezm'e döndüyse de bir süre sonra tekrar Mekke'ye geldi. Birinci gelişinde iki, bu gelişinde de üç olmak üzere beş yıl Mekke'e kaldı. Daha sonra Harezm'e dönerken Bağdat'a uğradı. Büyük bir ilgi ile karşılandı. Burada ders vermeye başladı. Aynı zamanda kendisini yetiştirmeye ve dersler almaya devam etti.
+
+Zemahşerî, bütün mesaisini ilme verdiği ve bu gaye ile sık sık seyahat ettiği için evlenmedi. Yaşadığı dönemin önemli alimleri arasında yer aldı. Dil ve tefsir alanında büyük otorite olarak kabul edilip, verdiği dersler büyük ilgi gördü. Bu alanda Harezm, Irak, Horasan, Hicaz gibi bölgelerde, sahasında zamanın önemli âlimleri arasında yer aldı. Kendisinden ders alan bazı talebeleri önemli hatipler arasında yer aldılar ve camilerde vaaz verdiler. Belâgat ilmindeki üstün kişiliği ve bu sahada yazdığı 'Keşşâf Tefsiri' büyük beğeni toplayan ve kabul gören bir eserdir. Ehl-i Sünnet âlimleri belâgat ile ilgili konularda bu eserden önemli ölçüde yararlandılar.
+
+Mahmud, Bağdat'tan Harezm'e geçti. Ceyhun Nehri kıyısındaki Ürgenç'e yerleştikten birkaç yıl sonra, 1144 yılında vefât etti."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="https://tr.wikipedia.org/wiki/Zemah%C5%9Fer%C3%AE"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

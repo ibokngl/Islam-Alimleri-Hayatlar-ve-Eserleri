@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HASAN-I BASRİ"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+
+        />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Hasan-ı Basrî (Arapça: اَلْحَسَنْ بِنْ أَبِي الْحَسَنْ اَلْبَصْرِي‎ (el-Hasan ibn Ebi'l Hasan el-Basrî)‎, 642–728), Fars anne ve babadan doğan, meşhur olmuş Sünnî Müslüman vaiz, ilahiyatçı ve İslâm âlimi.[1][2] Ümmü Seleme'nin evinde yetiştirilen Hasan-ı Basri, Bedir Savaşı'nda muharebe eden yetmiş Sahabi dahil, Peygamber Muhammed'in birçok Sahabesi ile tanışmıştır.Hasan-ı Basrî, kendi kuşağının en önde gelen şahsiyetlerden biri olmuş, dindarlık, takvâ ve dünyayı kınaması ile ünlü olmuştur. 89 yaşında hicrî 5 Receb 110 Cuma gününde vefat ettiğinde Basra'nın tüm ahalisi cenazesine katılmış, Basra'nın Cami Mescidi ilk defa ikindi namazı saatinde boş kalmıştır.[3] Hasan-ı Basri civardaki evliyaya bir örnek teşkil etmiş, şahsiyeti çağımızdakilere de etki etmektedir.[4] Hasan-ı Basrî (Arapça: اَلْحَسَنْ بِنْ أَبِي الْحَسَنْ اَلْبَصْرِي‎ (el-Hasan ibn Ebi'l Hasan el-Basrî)‎, 642–728), Fars anne ve babadan doğan, meşhur olmuş Sünnî Müslüman vaiz, ilahiyatçı ve İslâm âlimi.[1][2] Ümmü Seleme'nin evinde yetiştirilen Hasan-ı Basri, Bedir Savaşı'nda muharebe eden yetmiş Sahabi dahil, Peygamber Muhammed'in birçok Sahabesi ile tanışmıştır.
+
+Hasan-ı Basrî, kendi kuşağının en önde gelen şahsiyetlerden biri olmuş, dindarlık, takvâ ve dünyayı kınaması ile ünlü olmuştur. 89 yaşında hicrî 5 Receb 110 Cuma gününde vefat ettiğinde Basra'nın tüm ahalisi cenazesine katılmış, Basra'nın Cami Mescidi ilk defa ikindi namazı saatinde boş kalmıştır.[3] Hasan-ı Basri civardaki evliyaya bir örnek teşkil etmiş, şahsiyeti çağımızdakilere de etki etmektedir.[4]"
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/basri"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

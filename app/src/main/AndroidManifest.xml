@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ibokan.muslimalimler" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Alimler"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.HasaniBasri"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.HASANIBASRI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name="com.example.ibokan.muslimalimler.Hasanelbenna"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.ibokan.muslimalimler.HASANELBENNA" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Imamgazali"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.IMAMGAZALI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Imamnevevi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.IMAMNEVEVI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.IbniKesir"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.IBNIKESIR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Elcevziyye"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.ELCEVZIYYE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Kurtubi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.KURTUBI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.MuhiyydinArabi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.MUHIYYFINARABI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Mevdudi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.MEVDUDI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.MuhammedEsed"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.MUHAMMEDESED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Mhamidullah"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.MHAMIDULLAH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.OmerAziz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.OMERAZIZ" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.SeyyidKutub"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.SEYYIDKUTUB" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Taberi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.TABERI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ibokan.muslimalimler.Zemahseri"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ibokan.muslimalimler.ZEMAHSERI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

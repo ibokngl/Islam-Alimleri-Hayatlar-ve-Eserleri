@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MUHAMMED ESED"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/muhammedesed"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Muhammed Esed (d. Leopold Weiss, 2 Temmuz 1900 Lemberg - 23 Şubat 1992 Grenada), Avusturya asıllı (bazı kaynaklara göre Polonya asıllı)[1] Yahudi bir ailede dünyaya gelmiş[2] , sonrasında İslam'ı seçmiş olan düşünür, reformist, gezgin, gazeteci, din bilimci, yazar, politikacı.[2] İslam Dünyası'nda 1980 yılında yayınladığı Kuran'ın Mesajı The Message of the Qur’an isimli Kur'an tefsiri ile tanınmış ve etki bırakmıştır.
+
+1947 yılında kurulmuş olan Pakistan, kendisine vatandaşlık vermiştir. Ayrıca Pakistan'da, İslami Yapılanma Kurumu Başkanı olmuş, 1949'da Pakistan Orta Doğu İlişkileri Şefliğine getirilmiş ve Birleşmiş Milletlerde Pakistan adına temsilcilik yapmıştır.[2]
+
+Şu anda Ukrayna topraklarında bulunan Lyiv şehrinde, zamanın ismi ile Lemberg'de bir Yahudi ailesinde dünyaya gelmiştir.[1] Avukat olan babası, I. Dünya Savaşı öncesi Viyana'ya ailesini taşıyınca, 14 yaşındaki Esed(Weiss) okulu bırakarak Avusturya Ordusu'na katılır. Savaş sonrası hem Avusturya İmparatorluğu hem de Esed'in askerlik hayalleri yıkılır. Sonra felsefe ve tarih okumak için Viyana Üniversitesi'ne girmiş ise de, eğitim hayatından umduğu tatmini alamamıştır. Fakat bu dönem Viyana'nın tarihindeki en etkin ve üretken dönemlerden birisidir ki bu yıllarda Sigmund Freud, Alfred Adler ve Ludwig Wittgenstein gibi zamanının önde gelen düşünürleri konferanslar vermektedir. Esed de bu toplantılara katılmış ve bu öncül düşünürlerden etkilenmiştir.[2]
+
+Hayatının kalanı için Orta Avrupa'ya göçen Esed, Frankfurter Zeitung gazetesinde 22 yaşında bir muhabir olmuştur. Bu süreçte çok yoğun gezilerde bulunan Esed, zamanının en itibarlı gazetelerinden olan Frankfurter Zeitung için orta doğu muhabirliği yapmıştır.[1] Bu gezilerinde Filistin, Mısır, Irak, Suriye gibi ülkelerde bulunmuş ve İslam ile tanışmıştır. Ayrıca 20. yüzyılın en fazla etki yaratan İslam düşünürü olarak kabul edilmektedir.[2]
+"
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/esed"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

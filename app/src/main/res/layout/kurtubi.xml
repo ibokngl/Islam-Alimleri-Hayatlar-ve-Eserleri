@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="KURTUBİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Muhammed bin Ahmed el-Kurtubi, (doğum tarihi XI. Yüzyılın sonları ve XII. Yüzyılın başları olarak tahmin edilmiştir.[1]), Eserlerinde Ehl-i Sünnet’i savunan, başta Mu’tezile olmak üzere İmâmiye, Râfiziyye, Kerrâm’îyye gibi fırkaları eleştiren[2] âmelde Malikî i'tikatta Eş’ari olmakla birlikte, mezhep taassubuna karşı tavır takınan ve taklitçiliği bir metot olarak benimsemediğini dile getiren[3] Endülüslü ve Arap, muhaddis, müfessir, fakih, dilci ve kıraat âlimi.
+
+                Kurtubi, Endülüs'ün yetiştirdigi büyük alimlerdendir. Endülüs Emevileri’nin başşehri olan, dönemin ilim yuvası Kurtuba’da dünyaya geldi. Doğum tarihi 12. yüzyılın sonları ve 13. yüzyılın başları olarak tahmin edilmiştir. Kurtuba'da çiftçilikle uğraşan bir ailenin çocuğu olarak dünyaya geldi. Babası Hıristiyan İspanyolların 16 Temmuz 1230 tarihinde gerçekleştirdikleri bir saldırıda öldürüldü. Kurtubi, gençlik yıllarında çömlek yapımında kullanılan toprak taşımacılığı ile uğraşarak ailesinin geçimine yardımcı olmuştur.
+
+Eğitiminin ilk yıllarını Kurtuba’da geçirdi ve burada 'İbni Ebi Hucce' diye tanınan Ebu Cafer Ahmed bin Muhammed el-Kaysi (ö. 1245), Rebi bin Abdurrahman bin Ahmed el-Eş’ari (ö.1235), Ebu’l Hasan Ali bin Kutral el-Ensari gibi alimlerden sarf-nahiv (Arap grameri), belağat, Kur'ân ilimleri ve fıkıh dersleri aldı.
+
+Kurtuba’nın 1236 yılında Kastilya-Leon Kralı III. Fernando[4]’nun kuvvetleri tarafından ele geçirilmesinden sonra şehri terk ederek İskenderiye’ye geçti. Burada 'İbnü’l Müzeyyen' ismiyle anılan Ahmed bin Ömer el-Kurtubi’den (ö.1258) el-Müfhim fi Şerhi Sahih-i Müslim adlı eserinin bir kısmını dinledi. Ayrıca 1251 yılında vefat eden hadis alimi Ebu Muhammed Abdulvehhab İbn Revâc, Ebu Muhammed Abdülmu’ti el-Lahmi, el-Hasen İbn Muhammed el-Bekri (ö.1258), İbnu'l Cummeyzi (ö.1252) gibi hocalardan dil, edebiyat, Kur'an ilimleri, kıraat, tefsir, hadis ve fıkıh dersleri aldı.
+
+Şehabeddin el-Karafi ile birlikte Feyyum’a seyahat etti. 1249'da Mansure’ye uğradı. Burada ders gördü. Kahire’de de bir müddet ikamet ettikten sonra Said bölgesindeki Münyetü Beni Hasib’e yerleşti ve hayatının sonuna kadar burada yaşadı. Kendisinden ders alanlar arasında oğulları Şehabeddin Ahmed ile İbnü’z Zübeyr, İsmail bin Muhammed bin Abdülkerim, Ebu Bekir Muhammed bin Ahmed bin Ali el-Meymuni ve Ziyaeddin Ahmed bin Ebu’s Suud es-Satrici’nin adlarını zikredebiliriz.[5]
+
+Mütevazi kişiliği ve sade yaşantısı ile tanınan, zühd hayatına önem veren, itkan sahibi bir âlim olarak kaynakların zikrettiği Kurtubi 29 Nisan 1272 Münyetü Beni Hasîb’de vefat etti ve buraya defnedildi. Kabri 1971 yılında onun adına inşa edilip hizmete açılan bir cami avlusundaki türbesine nakledilmiş olup halen ziyaretçilere açık bulunmaktadır.[6]"
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/kurtubi"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

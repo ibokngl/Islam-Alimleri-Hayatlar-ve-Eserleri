@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="İMAM GAZZALİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Gazzâlî[1][2] (Farsça: الغزّالي) ya da tam adıyla Hüccetü’l-İslâm Ebû Hâmid Muhammed bin Muhammed bin Muhammed bin Ahmed el-Gazzâlî et-Tûsî (d. 1058, Tus - ö. 18 Aralık 1111, Tus), Büyük Selçuklu Devleti devrinin İslam âlimi, filozofu, mutasavvıfı ve müderrisi. Fars asıllı olduğu sanılan[1] Gazzâlî'nin lakapları Hüccetü’l-İslâm ve Zeynüddin'dir. Genel olarak Gazzâlî ve İmam-ı Gazzâlî isimleriyle tanınmaktadır.
+
+Gazali Hicri 450 (Miladi 1058) yılında Horasan'ın Tus şehrinde doğmuştur. İlk öğrenimini Tus'ta Ahmed bin Muhammed er-Razikânî’den almış, daha sonra Cürcan şehrine giderek Ebû Nasr el-İsmailî’den eğitim görmüş daha sonra 28 yaşına kadar Nişabur Nizamiye Medresesi’nde öğrenim görmüş, itikadi düşünce olarak Ebu Hasan Eş'ari’den ve ameli görüş olarak ise Şafiî'den etkilenmiştir. Hocası İmam-ı Harameyn lakaplı Abdülmelik el-Cüveynî 1085 yılında ölünce Nişabur’dan Büyük Selçuklu Devleti’nin veziri Nizamülmülk’ün yanına gider. Nizamülmülk'ün huzurunda olan bir toplantıda verdiği cevaplarla diğer bilginlerden üstünlüğünü kanıtlayarak 1091 yılında Bağdat’taki Nizamiye Medresesi'nin Baş Müderrisliği’ne tayin edilir. Burada bilgisi ve edindiği öğrenci topluluğuyla kısa sürede ün ve saygınlık kazandı. İçine girdiği ruhsal bunalımın da etkisiyle Sûfizm'e yöneldi ve Ebu Ali Farmedi'nin etkisiyle bu alanda yoğunlaştı. Bu ilgi ve hac arzusuyla medresedeki görevini bırakarak 1095 yılında Bağdat'tan ayrıldı ve Şam'a gitti.[3] Şam da iki yıl kaldıktan sonra 1097 yılında Hac'a gitti.
+
+Hac sonrası Şam'a döndü ve buradan Bağdat yoluyla Tus'a geçti. Şam ve Tus'ta bulunduğu sürede uzlet yaşamı sürdü ve tasavvuf alanında ilerledi. Bağdat'tan ayrılışından on bir yıl sonra 1106 yılında Nizamülmülk’ün oğlu Fahrülmülk'ün ricası üzerine Nişabur Nizamiye Medresesinde tekrar eğitim vermeye başladı. Buradan kısa süre sonra Tus'a dönerek yaptırdığı Tekke'de müritleriyle birlikte Sûfi yaşamı sürdü. Gazali 1111 (Hicri 505) yılında doğum yeri olan İran'ın Tus şehrinde vefat etti.[4]
+Gazali’nin yaşadığı dönemde İslam aleminde siyasi ve fikri büyük bir karmaşa hakimdi. Bağdat’ta Abbasi halifelerinin gücü zayıflamasına karşın Büyük Selçuklu Devleti’nin sınırları genişliyor ve nüfuzu artıyordu. Melikşah’ın veziri Nizamülmülk savaş meydanlarında zaferler kazanıyor, ilim meclisleri denilen tartışma ortamlarını ve medreseleri açıyordu. Bu dönemde Mısır tahtında Şiî-Fâtımî hanedanı vardı. Avrupa’da ise Endülüs Emevi Devleti gerilemekte idi.
+
+İlk Haçlı Seferi de Gazali döneminde yapılmış, Gazali 40 yaşında iken Antakya haçlılarca kuşatılmış bir yıl sonra da Kudüs ele geçirilmiştir. Hasan Sabbah ve Ömer Hayyam da Gazali ile aynı çağda yaşayan tanınmış kişilerdir. İslam âlemindeki bu karışıklığı fikri bir çöküntü tamamlıyordu.
+"
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/gazali"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

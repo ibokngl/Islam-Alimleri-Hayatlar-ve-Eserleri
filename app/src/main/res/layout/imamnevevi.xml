@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="İMAM NEVEVİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Nevevî (1233-21 Aralık 1277)[1], 13. yüzyılda yaşamış Arap hadis ve fıkıh bilgini.
+
+1233 yılında Şam'ın güneyinde Neva köyünde doğdu. Doğduğu yere nispetle Nevalı anlamına gelen, 'Nevevî' olarak tanılır.
+
+İlim tahsiline Kur'an-ı Kerim ile başlayan Nevevi, hadis, İslam hukuku, ahlak, dil ve edebiyat alanlarında eserler vermiştir. Özellikle İslam Hukuku ve Hadis alanlarında zamanın ender şahsiyetlerinden olmuştur. Günümüzün özel Hadis fakültesi diyebileceğimiz, Şam'daki Eşrefiye Darül-Hadisi'nin hocalığını yapmıştır.
+
+Kırkdört yıllık hayatında, kırkın üzerinde eser veren Nevevi, özel yaşantısıyla da örnek şahsiyetlerden olmuştur. Bunların tümü önemli eserler olmakla birlikte Rizayüs Salihin, Kırk Hadis ve Sahihi Müslim Şerhi oldukça meşhur olmuş ve Nevevi'nin ismiyle özdeşleşmiş eserlerdir. İmam Nevevi'nin yaşadığı dönemde İslam Dünyası büyük bir sıkıntı ve çalkantı içerisinde bulunuyordu. Bir taraftan Haçlı Seferleri diğer taraftan Moğol istilası yüzünden İslam coğrafyası büyük bir sıkıntı yaşamakta idi.Yaşadığı çağın insanlarını aydınlatma ve doğru yola iletme hususunda önemli gayretleri olan İmam Nevevi, 1277 (h. 676) yılında, kırkdört yaşında bu dünyadan ayrılmıştır."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1-> TDV İslam Ansiklopedisi ilgili madde"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

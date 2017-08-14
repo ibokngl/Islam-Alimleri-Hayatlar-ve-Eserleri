@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TABERİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Ebu Cafer Taberi (d. M.838/H.224), Amul - ö. M.923/H.310) Bağdad), Fıkıh, hadis, tarih, dil, tefsir ve kıraat ilimlerindeki çalışmalarıyla kendini kabul ettirmiş Müslüman bilim adamıdır. Tam adı 'Ebu Cafer Muhammed İbn-i Cerir el-Taberi' (Arapça: أبو جعفر محمد بن جرير بن يزيد الطبري‎) olan alim, İran'da tarihi bir bölge olan Taberistan'da (günümüzde Mazenderan) doğduğu için 'Taberi' olarak ünlenmiştir.
+
+En önemli eserlerinden ikisi, İslam dünyasında çok rağbet görmüş bir tefsir kitabı olan 'Tefsir'ul Taberi' -Türkiye'de 'Taberi Tefsiri' ismiyle bilinmekte ve yayınlanmaktadır- ve Taberi Tarihi'dir.
+Ebu Cafer Taberi, Taberistan'da Hazar Denizi'ne sahili olan Mazenderan Eyaleti'ne bağlı Amul şehrinde varlıklı bir ailede tahminen 838-9[1] yılında kış aylarında doğmuş ve ilk eğitimini burada yapmıştır. O erken büyümüş[2] yedi yaşında hafız oldu, sekiz yaşında imam, dokuz yaşında hadis ezberlemeye başlamıştır. 12[3] yaşında iken doğduğu memleketi bırakıp, İlim tahsili (fi talab al-'ilm) için Rey, Basra, Kufe, Medine, Suriye ve Mısır gibi şehir ve ülkeleri dolaştıktan sonra, hilafet merkezi olan Bağdat'a yerleşmiştir. Kaynaklar onun hocaları ve talebeleri için uzun bir liste vermişlerdir. Zamanında hadis, fıkıh (Hanefi, Şafii ve Maliki fıkıhları), kırâat, tarih ve edebiyat sahalarında meşhur olan birçok âlimden ders almıştır, yetiştikten sonra da bütün bu ilimlerde eserler vermiştir. Kırk sene süreyle, her gün kırk varak yazmak suretiyle, son derece hacimli eserler meydana getirmiştir.
+
+Fıkıhta önceleri Şafii mezhebine mensup iken, sonradan mutlak müctehidlik mertebesine ulaşmıştır. Kaynaklar onun, Cerirî[4] adında sonraları ortadan kalkmış olan bir mezbebin imamı olduğunu kaydederler. Kaynaklar Taberi'nin, Ahmed bin Hanbel'den ilim almak üzere Bağdat'a geldiğini ve fakat ancak onun vefatından[5] sonra Bağdat'a ulaşabildiğini, bunun üzerine memleketine dönmeyerek Basra, Kufa ve Vasit'de[5] saygıdeğer bilginlerden tahsiline devam ettiğini belirtiyorlar.[6]
+
+19 Şubat 923[7] yılında Bağdat'ta vefat etmiş ve muhaliflerinin çokluğu sebebiyle, ölümü gizli tutularak geceleyin vefat ettiği eve defnedilmiştir."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/taberi"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

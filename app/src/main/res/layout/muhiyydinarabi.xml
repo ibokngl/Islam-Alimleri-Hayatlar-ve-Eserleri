@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MUHİYYİDDİN ARABİ"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/arabi"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:lineSpacingExtra="5dp"
+                android:text="Abū `Abd Allah Muhammad b. `Ali b. Muhammad b. al-`Arabi al-Hātimī al-Tā’ī (Arapça: أبو عبد الله محمد بن علي بن محمد بن العربي الحاتمي الطائي) Kısaca Muhyiddin ibn Arabi de denir (d. 1165 - ö. 1240[1]). Ünlü mutasavvıf, İslam düşünürü ve
+
+                Muhyiddin İbn-i Arabi, Muvahhidun döneminde, 27 Ramazan 560’da (hicri) Mursiye (Murcia), Endülüs'te (bugünkü İspanya) doğdu. Bilinmeyen bir sebeple 8 yaşında ailesiyle birlikte İşbiliye’ye (bugünkü Sevilla) geldi (muhtemelen babasının memuriyeti nedeniyle). Ailesi Arap Tayy kabilesine mensuptu. Yakın cedleri hakkında fazla bir şey bilinmiyorsa da, anne ve baba tarafından nüfuz ve itibar sahibi kimseler olduğu anlaşılıyor. Akrabaları arasında tasavvufî bilgilere sahip kimseler vardı.
+
+İlk tahsilini bu şehirde yaptı, uzun bir süre burada kaldı. Çocuk yaşlarında 'Ahmed İbnu’l-Esirî' adında genç bir Sufi ile arkadaş oldu. Hakkındaki kayıtlara göre İbnu'l-Arabî, bu tahsil sırasında bir aralık Halvet'e çekilen İbnu'l-Arabi, halvetinden keşf yoluyla edindiği çeşitli bilgilerle çıkmıştır.
+
+Endülüs'te bir süre daha kaldıktan sonra, seyahate çıktı. Şam, Bağdad ve Mekke'ye giderek orada bulunan tanınmış alim ve şeyhlerle görüştü. 1182'de İbn-i Rüşd ile görüştü. Bu görüşmeyi eserinde anlatır. Bu İbnu Rüşd’ün bilgi'nin akıl yolu'yla elde edileceğini söylemesiyle meşhur olduğu yıllardır. 17 yaşındaki genç Muhyiddin gerçek bilgi'nin sadece aklımızdan gelmediğine, böyle bir bilginin daha çok ilham ve keşf yoluyla elde edilebileceğine inanmıştı.
+
+Bu senelerde 'Şekkaz' isminde bir şeyh'le tanıştı. Bu zat küçük yaşlardan itibaren ibadete başlayan, Allah korkusu taşıyan, hayatında bir kerecik olsun ‘ben’ dememiş olan ve uzun uzun secde eden bir kimsedir. Muhyiddin o ölene kadar onunla sohbete devam etti. 1182-1183'de İşbiliyye’ye bağlı Haniyye’de 'Lahmî' isimli bir şeyhden, bu zatın adını taşıyan bir mescidde Kur'an dersi aldı.
+
+1184-1185'de 'Ureynî' isimli bir şeyh’le tanıştı. Eserlerinde Ondan ilk hocam diye bahseder, çok faydalandığını söyler. 'Ureynî', Ubudiyet [kulluk] meselesinde derin bir bilgiye sahipti. Bu yıllar'da 'Martili' adlı bir şeyhten de istifade etti. Ureynî O’na:’Sadece Allah’a bak’ derken Martilî‘Sadece Nefsine bak, nefsin hususunda dikkatli ol, ona uyma’ diye öğüt vermişti. Martilî’ye bu zıt önerilerin içyüzünü sordu. Bu zat, kendi nasihatinin doğruluğunda ısrar edecek yerde, ‘Oğlum, 'Ureynî'’nin gösterdiği yol, doğru yolun ta kendisidir. Ona uyman lazım. Biz ikimiz de, kendi halimizin gerekli kıldığı yolu sana göstermişizdir’ dedi.
+
+Bu yıllar'da İşbiliyye’de Kordovalı Fatma adında yaşlı bir kadına (tanıştıklarında 96 yaşındadır) 14 sene hizmet etti. Bu kadın, erkek ve kadınlar arasında müttaki ve mütevekkile olarak temayüz etmişti. Çok iyi bir kimseyle evliydi. Yüzünün İbn Arabi'nin bakmaktan utanacağı kadar güzel olduğu söylenir.
+
+1189'da Ebu Abdullah Muhammed eş-Şerefî adında biriyle tanıştı. Kendisi doğu İşbiliyye’li olup, Hatve ehlindendi. Beş vakit namazını Addis Camii'nde kılan bu zatın ibadete aşırı düşkünlüğünden namaz kılmaktan ayaklarının şiştiği söylenir.
+
+Arabi, İşbiliyye’deyken (1190) hastalanıp okuma kabiliyyet'ini kaybetti. İki yıl bu halde kaldıktan sonra 589'da (Hicri) Sebte Şehri'ne giderek orada ahlak makamına erdiğini söylediği İbnu Cübeyr ile tanıştı. Bir süre sonra İşbiliyye’ye döndü. Aynı yıl Tlemsen’e geldi. Burada Ebu Medyen (ö.594)[1] hakkında gördüğü bir rüyayı anlatacaktır.
+
+1196'da Fas’a gitti. Orada yaptığı Seyahatler sırasında büyük şöhret kazandı. 1198'de tekrar Endülüs’e geçti. Gırnata Şehri dolaylarındaki Bağa kasabasında Şekkaz isimli bir şeyhi ziyaret etti. Onun Tasavvuf yolu'nda karşılaştığı en yüce kimse olduğunu söyler. 1199-1200'de İlk defa Hac için Mekke’ye gitti. Orada [el-Kassar] (Yunus ibnu Ebi’l-Hüseyin el-Haşimi el-Abbasi el-Kassar) isimli bir şahıs'la sohbet etti. Hac’dan sonra Mağrib’de, oradan da Ebu Medyen’in şehri olan Becaye'de bulundu. Bir süre sonra tekrar Mekke’ye geldi ve Ruhu’l-Quds, Tacu'r-Rasul adlı eserler'ini yazdı.
+
+            1204'de Medine, Musul, Bağdad'da bulundu. Musul'da, et-Tenezzülatu'l-Musuliyye yi yazdı. Musul’dan ayrıldıktan sonra Konya’ya geldi. Orada tanıştığı Sadreddin Konevî’nin dul annesi ile evlendi. Konya’da iken Risaletü’l-Envar ı yazdı. Selçuk Meliki tarafından hürmet ve ikram gördü. Sonra Mısır’a geçti. Orada Futuhat-ı Mekkiye'deki sözlerinden ötürü Mısır uleması tarafından hakkında verilen idam fetvasıyla yüzyüze gelince gizlice oradan kaçtı.Tekrar Mekke’ye geldi ve burada bir süre kaldı. Bağdad ve Halep’de bir süre dolaştıktan sonra 612/1215 de tekrar Konya’ya geldi. 617 de Şam’a yerleşti. Zaman zaman civar şehirlere seyahatler yaptı.Şam'da kendisinin Fütuhat'tan sonra en büyük eseri olarak kabul edilen Fusus'u kaleme aldı(627/1230). İbn Arabi bu eseri rüya'sında Peygamber'den ümmetine aktarmak üzere aldığını belirtir. 638 de 22 R.Evvel’de (1239) Şam'da öldü. Kabri Şam şehri dışında Kasiyun dağı eteğindedir. 1516 yılında I. Selim, Şam’ı Osmanlı toprağı yaptığında oraya türbe, camii ve imaret inşa ettirdi. Medfun bulunduğu türbenin kubbesinde -İbn Arabi'nin kendisine ait olduğu iddia edilen- 'bütün yüzyıllar yetiştirdikleri büyük insanlarla tanınır, benden sonraki yüzyıllar benimle anılacak' mealindeki bir beyit yazılıdır."
+                android:id="@+id/textView"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="KAYNAKLAR"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/arabi"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:id="@+id/textView4"
+                android:layout_weight="0.65"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
